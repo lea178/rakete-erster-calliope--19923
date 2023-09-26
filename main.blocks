@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="~w:mFnbVK+7n47s;4]LF">tempo</variable></variables><block type="device_forever" id="83WqU[mUf?nDe}e]:eo|" x="710" y="-81"/><block type="device_button_selected_event" id="J1M/OA{Ez1;|DhPg/T~=" x="0" y="0"><field name="NAME">Button.A</field><value name="eventType"><shadow type="control_button_event_click" id="MEbtG*tdD{yher=u3eu~"/></value><statement name="HANDLER"><block type="device_show_number" id="1dtv@GHm_%2B]Hj0b8{t"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="number"><shadow type="math_number" id="JFTJ-$(`*dI]wX-RIDp%"><field name="NUM">3</field></shadow></value><next><block type="variables_set" id="=RyK0:of__h8ruo.^?z0"><field name="VAR" id="~w:mFnbVK+7n47s;4]LF">tempo</field><value name="VALUE"><shadow type="math_number" id="Y-b$D3.ftRO)8$Qo*v30"><field name="NUM">500</field></shadow></value><next><block type="device_show_number" id="LZB#b*)f+RP|}I$8tKz|"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="number"><shadow type="math_number" id="D50Q9UQjn[mhMpO8gxe+"><field name="NUM">2</field></shadow></value><next><block type="variables_set" id="O?CVA-p2cgZpCKa=HYy-"><field name="VAR" id="~w:mFnbVK+7n47s;4]LF">tempo</field><value name="VALUE"><shadow type="math_number" id="$-C.^`$(.XWte*,rxLvN"><field name="NUM">500</field></shadow></value><next><block type="device_show_number" id="pWDre|NA.,0JfM`*es1%"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="number"><shadow type="math_number" id="3F_1HyO|0Ku(s|4uL#kV"><field name="NUM">1</field></shadow></value><next><block type="variables_set" id="/jhSC=og5a79(-ng$euY"><field name="VAR" id="~w:mFnbVK+7n47s;4]LF">tempo</field><value name="VALUE"><shadow type="math_number" id="bb2iD}lIq(G@zQhL=?Hs"><field name="NUM">500</field></shadow></value><next><block type="device_show_number" id="Neo{G^huoEbd^]f?wFM1"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="number"><shadow type="math_number" id="AOU=,*75:]%)m^8=l4dI"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="lkazf7%=+XWS`2GPqZIq"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . # # # . 
+        # # # # # 
+        # . # . #
+        `</field><next><block type="device_show_leds" id="Z=CBSr34JT0Ac.?j,EGW"><field name="LEDS">`
+        . # # # . 
+        . # # # . 
+        # # # # # 
+        # . # . # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="-Hw3~l=7OzGaxe)Dh@CS"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        # . # . # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="rqwD7gV{x:LRgZ}N[!@#"><field name="LEDS">`
+        # # # # # 
+        # . # . # 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="T6CbP/jhUuH(M6|8|`nA"><field name="LEDS">`
+        # . # . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="S/@;cd+]EOc{$hej{0KC"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="basic_show_icon" id="=!SoKElc74$~4j7Q+y{v" disabled="true" x="806" y="33"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="i">IconNames.Heart</field></block><block type="pxt-on-start" id="y[FIpGH:.5yj9qG~fIv@" x="287" y="240"/><block type="device_print_message" id="(acpBq;p~??69GqC}_2k" disabled="true" x="585" y="329"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="text"><shadow type="text" id="@z?#/y{6X72+)Gd_Ml~G" disabled="true"><field name="TEXT">Ich</field></shadow></value><next><block type="basic_show_icon" id="QVy[J8-}y{gjlwJOmS%h" disabled="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="i">IconNames.Heart</field><next><block type="device_print_message" id="ld1SSurT8c65G9z1L85g" disabled="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="text"><shadow type="text" id="lWYiy`.;Az`WnaJF@)Z3" disabled="true"><field name="TEXT">Berlin</field></shadow></value></block></next></block></next></block></xml>
